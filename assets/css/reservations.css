@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+body{
+    background-image: url(../images/reservationsBG.png);
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    overflow-y: hidden;
+}
+
+.resBox{
+    border-radius: 5px;
+    display: flex;
+    width: 350px;
+    height: 400px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.575);
+}
+
+.rForm
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cCont 
+{
+    width: 100%;
+}
+
+.lcselect,.checkIn,.checkOut,.guest,.phone{
+    font-size: 15px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 25px;
+    padding: 5px;
+    color: white;
+    background: #1c0081;
+    text-align: center;
+}
+
+.lcselect
+{
+    width: 100%;
+}
+
+.guest{
+    -moz-appearance: textfield;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0px 10px;
+    width: 40px;
+}
+
+.resBtn{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    background: #1c0081; 
+    color: white;
+    cursor: pointer;
+}
+
+.resBtn:hover{
+    background: white;
+    color: #1c0081;
+}
+
+.resIntro{
+    color: white;
+    width: 50%;
+    font-size: 20px;
+}
+.resIntro h1{
+    font-size: 50px;
+}
+
+label {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.dates
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone
+{
+    width: 100%;
+}

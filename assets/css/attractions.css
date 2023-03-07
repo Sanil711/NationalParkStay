@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+*{
+    margin: 0%;
+    padding: 0%;  
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+ 
+body
+{
+    background-image: url("../images/attractionsBG.jpg");
+    background-attachment: fixed;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.sectionTitle
+{
+    width: 100%;
+    margin: 100px 0px;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-shadow: 10px 10px 5px black;
+}
+ 
+.sectionTitleHeader
+{
+    margin: 170px 0px 100px 0px;
+}
+ 
+.boxContent
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    place-items: center;
+    grid-row-gap: 50px;
+}
+ 
+.itemBox
+{
+    display: flex;
+}
+ 
+.itemBox .boxImg
+{
+    height: 340px;
+    width: 340px;
+    border-radius: 50%;
+    border: solid 4px #B89968;
+    margin-right: -170px;
+    box-shadow: 0px 25px 10px black;
+}
+ 
+.itemBox .infoBox
+{
+    width: 930px;
+    background-image: url("../images/infoBack.png");
+    color: white;
+    border-radius: 0px 25px 25px 0px;
+    font-weight: 400;
+    z-index: -10;
+    box-shadow: 15px 15px 10px black;
+}
+ 
+.itemBox .pHead
+{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin: 30px;
+}
+ 
+.itemBox .p
+{
+    font-size: 18px;
+    margin-left: 200px;
+    margin-right: 30px;
+}
+
+.itemBoxLast{
+    margin-bottom: 100px;
+}
