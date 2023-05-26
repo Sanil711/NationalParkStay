@@ -1,51 +1,3 @@
-<!-- PHP Code -->
-<?php
-// error_reporting(0);
-// if (isset($_POST['loginBtn'])){
-//     $email = $_POST['email'];
-//     $travel_password = $_POST['travel_password'];
-
-//     // $mailRegex = '/^([\w\.]+@+[a-zA-Z]+(\.)+[a-zA-Z]{2,6})$/' ;
-//     $passwordRegex = '/^([\w]{8,})$/' ;
-
-//     if(!preg_match($mailRegex,$email)){
-//         $mailError = "Enter a valid mail";
-//     }
-//     if(!preg_match($passwordRegex,$travel_password)){
-//         $passwordError = "Password should be atleast 8 characters long and no special characters allowed";
-//     }
-
-//     if((preg_match($mailRegex,$email)) && (preg_match($passwordRegex,$travel_password))){
-//         $servername = "localhost";
-//         $username = "root";
-//         $password = "";
-//         $database = "nationalparkstaymanagement";
-
-//         $conn = mysqli_connect($servername,$username,$password,$database);
-//         if(!$conn){
-//             echo "Connection Failed...";
-//         }
-//         else{
-//             $sql = "SELECT * FROM usersdb";
-//             $result = mysqli_query($conn,$sql);
-
-//             while($row = mysqli_fetch_array($result)){
-//                 $verify_email = $row['email'];
-//                 $verify_password = $row['travel_password'];
-//             };
-
-//             if($verify_email == $email && $verify_password == $travel_password){
-//                 header("Location: index.php");
-//             }
-//             else{
-//                 echo "INVALID Email id or Password"; 
-//             }
-//         }
-//     }
-// }
-?>
-
-<!-- HTML Code -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/login&register.css">
     <title>Login</title>
 </head>
-
+ 
 <body>
     <section class="loginBox">
         <form action="loginchk.php" method="POST">

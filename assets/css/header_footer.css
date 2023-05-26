@@ -1,7 +1,7 @@
 header
 {
     width: 100vw;
-    height: 70px;
+    height: 5rem;
     background-color: white;
     border-bottom: 5px solid #008000;
     display: grid;
@@ -122,6 +122,18 @@ header .navs .dropDown a img
     }
 }
 
+@keyframes backUp {
+    0% {
+        transform: scaleY(1)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(0)
+    }
+}
+
 header .dropDown:hover .sub_navs
 {
     display: block;
@@ -165,7 +177,7 @@ header .signInUp .profile_Navs
 }
 
 .profile_Navs{
-    animation: growDown 500ms ease-in-out;
+    animation: backUp 500ms ease-in-out;
     transform-origin: top center;
 }
 

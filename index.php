@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 
 <head>
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <?php include "header.php"; ?>
+    <?php include "header.php"; ?> 
 
     <section class="bg">
         <div class="aboutContent">

@@ -20,8 +20,8 @@
                 </ul>
             </div>
 
-            <a href="http://localhost/NPS/lodgings&camps.php">
-                Lodging & Camps
+            <a href="http://localhost/NPS/camps.php">
+                Camps
             </a>
 
             <div class="dropDown">
@@ -30,15 +30,7 @@
                  if ( !$_SESSION['email'] == null || !$_SESSION['email'] == "")
                  {
                      ?>
-                <a href="">Reserve Here  <img src="assets/images/triangle-bottom-arrow.svg" alt="dropdown icon"> </a>
-                <ul class="sub_navs">
-                    <a href="reservations.php">
-                        <li>Reservations</li>
-                    </a>
-                    <a href="reservationsDetails.php">
-                        <li>Reservation Details</li>
-                    </a>
-                </ul>
+                <a href="reservationsDetails.php">Reservation Details</a>
                 <?php }?>
             </div>
             </a>
@@ -60,9 +52,6 @@
                     $user = $_SESSION['email']; ?>
                 <a href="#">
                     <li><?php echo $user ?></li>
-                </a>
-                <a href="#">
-                    <li>Profile</li>
                 </a>
                 <a href="Logout.php">
                 <li>Logout</li>

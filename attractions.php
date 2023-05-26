@@ -14,7 +14,6 @@
     <title>Attractions</title>
 </head>
 
-
 <body>
     <?php include "header.php"; ?>
     
@@ -70,10 +69,10 @@
                     zone.
                     Beautiful wildflowers bloom in meadows from June through August.
                 </p>
-            </section>
+            </section> 
         </section>
 
-        <section class="itemBox">
+        <section class="itemBox"> 
             <img class="boxImg" src="assets/images/subAlpine.png" alt="boxImg">
             <section class="infoBox">
                 <h2 class="pHead">Subalpine Forest</h2>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en"> 
+ 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,16 +28,8 @@
         <form action="reservationschk.php" method="post" class="rForm">
             
             <div class="cCont">
-                <label class="lcLabel">Choose your place to stay at</label>
-                
-                <select class="lcselect" name="lodgeorcamp">
-                    <option selected="true" value="">-- Choose a lodge or camp --</option>
-                    <option value="Sunrise High Sierra Camps">Sunrise High Sierra Camps</option>
-                    <option value="The Ahwahnee">The Ahwahnee</option>
-                    <option value="White Wolf Lodge">White Wolf Lodge</option>
-                    <option value="Wawona Hotel">Wawona Hotel</option>
-                    <option value="Curry Village">Curry Village</option>
-                </select>
+                <label class="lcLabel">Campground</label>
+                <input disabled type="text" class="lcselect" value="<?php echo $_SESSION['campname'] ?>" name="lodgeorcamp"/>
             </div>
 
             <div class="cCont dates">
@@ -65,8 +57,6 @@
         </form>
     </section>
     <div class="resIntro">
-   <?php $user=$_SESSION['id']; 
-//    echo $user; ?>
         <h1>MAKE YOUR RESERVATION</h1>
         <p>Other than the entrance fee, you don't need a reservation or permit to visit Yosemite. However, you should
             get a lodging or campground reservation if you plan to spend the night.<br>
@@ -75,6 +65,8 @@
             lodgings, campings, your check-in and check-out dates and number of members on your trip.
         </p>
     </div>
+
+
 
 <?php
 // $lodgeorcamp = $_POST['lodgeorcamp'];

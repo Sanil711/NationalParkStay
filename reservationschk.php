@@ -11,8 +11,8 @@ function validate($data){
 }
 
 
-$lodgeorcamp =  validate($_POST['lodgeorcamp']);
-$checkin =    validate($_POST['checkin']);
+$lodgeorcamp =  $_SESSION['campname']; 
+$checkin =    validate($_POST['checkin']); 
 $checkout = validate($_POST['checkout']);
 $adults =  validate($_POST['adults']);
 $children =  validate($_POST['children']);

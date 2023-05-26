@@ -77,6 +77,7 @@ body{
     background: #1c0081; 
     color: white;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .resBtn:hover{

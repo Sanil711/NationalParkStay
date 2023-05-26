@@ -54,6 +54,7 @@ function changeBackground() {
     setTimeout(changeBackground, 5000);
 }
 
+
 $(document).ready(function() {
 
     setTimeout(changeBackground, 5000);  

@@ -1,5 +1,5 @@
 <!-- HTML Code !-->
-<!DOCTYPE html>
+<!DOCTYPE html>  
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -53,11 +53,11 @@
                     <th scope="col">Delete</th> 
                 </tr>
             </thead>
-    <tbody class="tableContent">
-    <tr>
-    <?php if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
+     <tbody class="tableContent">
+     <tr>
+     <?php if ($result->num_rows > 0) {
+     // output data of each row
+     while($row = $result->fetch_assoc()) {
         echo "<th scope='row'> ". $row['reservation_id']."</th>";
         echo  "<td>" . $row["lodgeorcamp"]."</td>";
         echo "<td>" . $row["checkin"]."</td>";
@@ -71,13 +71,13 @@
         // echo '<td><input type="button" value="Edit" class="btn btnEdit" onclick="editRes()" ></td>'; 
         // echo '<td><input type="button" value="Delete" class="btn btnDel" onclick="delRes()" ></td>'; 
         echo "</tr>";
-    }
-} else{
-    echo "0 results";
-    }?>
+       }
+     } else{
+        echo "0 results";
+       }?>
              
-    </tbody>
-    </table>
+     </tbody>
+     </table>
     </div>
 
     <input type="button" value="Go Home" class="btn btnHome" onclick="goHome()">
