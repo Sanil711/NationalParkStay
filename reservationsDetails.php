@@ -48,6 +48,7 @@
                     <th scope="col">Check out Date</th>
                     <th scope="col">Adults</th>
                     <th scope="col">Children</th>
+                    <th scope="col">Total Reservation Cost</th> <!-- My cost calculation column -->
                     <th scope="col">E-Mail</th> 
                     <th scope="col">Edit</th> 
                     <th scope="col">Delete</th> 
@@ -64,6 +65,28 @@
         echo "<td>" . $row["checkout"]."</td>";
         echo "<td>" . $row["adults"]."</td>";
         echo "<td>" . $row["children"]."</td>";
+        switch($row["lodgeorcamp"]){
+            case "Bamboo Grove Retreat":
+                echo "<td>₹".($row["adults"]*1500 + $row["children"]*1500)."</td>"; // My cost calculation test 
+                break;
+            case "Tulsi Lake Tranquility":
+                echo "<td>₹".($row["adults"]*1800 + $row["children"]*1800)."</td>";
+                break;
+            case "Tungareshwar Valley Vista":
+                echo "<td>₹".($row["adults"]*2000 + $row["children"]*2000)."</td>";
+                break;
+            case "Aarey Enclave Escape":
+                echo "<td>₹".($row["adults"]*1600 + $row["children"]*1600)."</td>";
+                break;
+            case "Powai Lakeside Haven":
+                echo "<td>₹".($row["adults"]*2200 + $row["children"]*2200)."</td>";
+                break; 
+            case "Yeoor Hills Hideaway":
+                echo "<td>₹".($row["adults"]*2500 + $row["children"]*2500)."</td>";
+                break;
+            default:
+                echo "<td>" ."No Camp Selected". "</td>";
+        }
         echo "<td>" . $row["email"]."</td>";        
         
         echo '<td><b><a href="edit.php?id='. $row['reservation_id'].'">Edit</a></b></td>';
@@ -80,10 +103,10 @@
      </table>
     </div>
 
-    <input type="button" value="Go Home" class="btn btnHome" onclick="goHome()">
+    <input type="button" value="Proceed to Payment" class="btn btnHome" onclick="proceedtoPayment()">
     <script>
-        function goHome(){
-            window.location.href = "http://localhost/NPS/index.php";
+        function proceedtoPayment(){
+            window.location.href = "http://localhost/NPS/paymentGateway.html";
         }
     </script>
 </body>

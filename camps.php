@@ -16,7 +16,7 @@
 
     <title>Camps</title> 
 </head>
-
+ 
 <body>
     <section class="blur">
         <?php include "header.php"; ?>
@@ -26,7 +26,9 @@
             <div class="cardContainer">
                 <div class="theCard">
                     <figure class="front card0">
-                        <!--  -->
+                        <div class="cardTitle opcBg">
+                            Bamboo Grove Retreat
+                        </div>
                     </figure>
                     <div class="back card0"> 
                         <div class="opcBg">
@@ -41,7 +43,9 @@
             <div class="cardContainer">
                 <div class="theCard">
                     <figure class="front card1">
-                        <!--  -->
+                        <div class="cardTitle opcBg">
+                            Tulsi Lake Tranquility
+                        </div>
                     </figure>
 
                     <div class="back card1">
@@ -57,7 +61,9 @@
             <div class="cardContainer">
                 <div class="theCard">
                     <figure class="front card2">
-                        <!--  -->
+                        <div class="cardTitle opcBg">
+                            Tungareshwar Valley Vista
+                        </div>
                     </figure>
 
                     <div class="back card2">
@@ -73,7 +79,9 @@
             <div class="cardContainer cardContainerLast">
                 <div class="theCard">
                     <figure class="front card3">
-                        <!--  -->
+                        <div class="cardTitle opcBg">
+                            Aarey Enclave Escape
+                        </div>
                     </figure>
 
                     <div class="back card3">
@@ -89,7 +97,9 @@
             <div class="cardContainer cardContainerLast">
                 <div class="theCard">
                     <figure class="front card4">
-                        <!--  -->
+                        <div class="cardTitle opcBg">
+                            Powai Lakeside Haven
+                        </div>
                     </figure>
 
                     <div class="back card4">
@@ -105,7 +115,9 @@
             <div class="cardContainer cardContainerLast">
                 <div class="theCard">
                     <figure class="front card5">
-                        <!--  -->
+                        <div class="cardTitle opcBg">
+                            Yeoor Hills Hideaway
+                        </div>
                     </figure>
 
                     <div class="back card5">

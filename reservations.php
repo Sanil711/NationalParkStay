@@ -58,7 +58,7 @@
     </section>
     <div class="resIntro">
         <h1>MAKE YOUR RESERVATION</h1>
-        <p>Other than the entrance fee, you don't need a reservation or permit to visit Yosemite. However, you should
+        <p>Other than the entrance fee, you don't need a reservation or permit to visit SGNP. However, you should
             get a lodging or campground reservation if you plan to spend the night.<br>
             This page allows you to do the exact thing !<br>
             Choose the perfect lodging for your next trip with the box on the left side that lets you select

@@ -55,11 +55,12 @@ else{
                 
                 <select class="lcselect" name="lodgeorcamp" >
                     <option selected="true" value="">Choose your camp or lodging</option>
-                    <option value="Sunrise High Sierra Camps">Sunrise High Sierra Camps</option>
-                    <option value="The Ahwahnee">The Ahwahnee</option>
-                    <option value="White Wolf Lodge">White Wolf Lodge</option>
-                    <option value="Wawona Hotel">Wawona Hotel</option>
-                    <option value="Curry Village">Curry Village</option>
+                    <option value="Bamboo Grove Retreat">Bamboo Grove Retreat</option>
+                    <option value="Tulsi Lake Tranquility">Tulsi Lake Tranquility</option>
+                    <option value="Tungareshwar Valley Vista">Tungareshwar Valley Vista</option>
+                    <option value="Aarey Enclave Escape">Aarey Enclave Escape</option>
+                    <option value="Powai Lakeside Haven">Powai Lakeside Haven</option>
+                    <option value="Yeoor Hills Hideaway">Yeoor Hills Hideaway</option>
                 </select>
             </div>
 

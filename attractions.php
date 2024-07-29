@@ -17,284 +17,136 @@
 <body>
     <?php include "header.php"; ?>
     
-    <h1 class="sectionTitle sectionTitleHeader" id="one">Flora of the Yosemite Valley</h1>
+    <h1 class="sectionTitle sectionTitleHeader" id="one">Flora of SGNP</h1>
     <section class="boxContent">
+
         <section class="itemBox">
-            <img class="boxImg" src="assets/images/foothillWoodland.jpg" alt="boxImg">
+            <img class="boxImg" src="assets/images/forestHabitat.jpg" alt="boxImg">
             <section class="infoBox">
-                <h2 class="pHead">Foothill-Woodland Zone </h2>
+                <h2 class="pHead">Forest Habitat</h2>
                 <p class="p">
-                    The lowest elevations in Yosemite are found on the western boundary of the park at the El Portal
-                    Administrative Site, which is at approximately 1,800 feet (549 m). This is the foothill-woodland
-                    zone, an area that is hot and dry in the summer with very little or no snow in the winter.
-                    Plants
-                    within this zone include chamise, ceanothus, manzanita, blue oak, interior live oak, and gray
-                    pine.
-                    These plant communities can also be found near Hetch Hetchy reservoir.
+                    The most dominating habitat-type here is the Forest habitat. Of flowering plants alone, an estimated 1300 species exist in SGNP. Much of the forest here conforms to the southern mixed-deciduous forest, dominated by the Tectona, Albizzia, Terminalia, Holarrhena, Firmiana, Dalbergia, Garuga, Grewia, Adina, Ficus, Madhuca, Caraya, Butea and bamboo compositions. This is most evident in the lowlands and up along the hill slopes.
                 </p>
             </section>
         </section>
 
         <section class="itemBox">
-            <img class="boxImg" src="assets/images/lowerMontane.jpg" alt="boxImg">
+            <img class="boxImg" src="assets/images/upperSlopes.jpg" alt="boxImg">
             <section class="infoBox">
-                <h2 class="pHead">Lower Montane Forest</h2>
+                <h2 class="pHead">Upper Slopes</h2>
                 <p class="p">
-                    Beginning near the 3,000 foot (900 m) elevation, the hot, dry summers and cool, moist winters of
-                    the Mediterranean climate give rise to the lower montane forest zone. The accumulation of
-                    several feet of snow during the winter is not uncommon and can stay on the ground for several
-                    months.
-                    The diversity of tree species found in this zone make this a beautiful and interesting forest to
-                    explore. The lower montane forests are found along the western boundary of the park and include
-                    trees such as California black oak, ponderosa pine, incense-cedar, and white fir.<br>
-                    Yosemite's giant sequoia groves including the Mariposa, Merced, and the Tuolumne Groves are also
-                    found within this vegetation zone.
+                    On the upper slopes and in some of the secluded, narrow valleys and stream-beds, there are elements of semi-evergreen, and also some evergreen flora. The few small patches of true Asoca (Saraca asoca) are magical, dense and deep green always, so striking against the leaf-fall of the deciduous all around, the flash of a Blue Mormon butterfly, the rambling whistling of a Malabar whistling-thrush, the fluty notes of a Brown-cheeked Fulvetta.
                 </p>
             </section>
         </section>
 
         <section class="itemBox">
-            <img class="boxImg" src="assets/images/upperMontane.jpg" alt="boxImg">
+            <img class="boxImg" src="assets/images/lowerSlopes.jpg" alt="boxImg">
             <section class="infoBox">
-                <h2 class="pHead">Upper Montane Forest</h2>
+                <h2 class="pHead">Lower Slopes</h2>
                 <p class="p">
-                    The upper montane forest begins at higher elevations near 6,000 feet (1800 m), where the
-                    montane
-                    climate is characterized by short, moist, cool summers and cold, wet winters. Snow begins to
-                    fall in
-                    November and may accumulate to depths up to six feet and remain until June.<br>
-                    Pure stands of red fir and lodgepole pine are typical of this forest. Jeffrey pine, which
-                    has bark
-                    that smells like vanilla, and the picturesque western juniper can also be found in this
-                    zone.
-                    Beautiful wildflowers bloom in meadows from June through August.
-                </p>
-            </section> 
-        </section>
-
-        <section class="itemBox"> 
-            <img class="boxImg" src="assets/images/subAlpine.png" alt="boxImg">
-            <section class="infoBox">
-                <h2 class="pHead">Subalpine Forest</h2>
-                <p class="p">
-                    The upper montane forest is replaced by the subalpine forest near 8,000 feet (2450 m),
-                    where the
-                    climate is cooler with an even shorter growing season due to long, cold, and snowy
-                    winters.
-                    Accumulations of three to nine feet of snow are typical.<br>
-                    The western white pine, mountain hemlock, and lodgepole pine are found in this forest
-                    with many
-                    subalpine meadows that flower from July through August.
+                    Bamboo is quite widespread, especially in the lower areas, and the teak-bamboo forest community with its characteristic bird-life and general make-up is easily evident. The Karvi (Strobilanthes) is a widespread shrub that constitutes the undergrowth of vast stretches of the forest here; this abundant shrub, while visible all through, even as dry stalks during summer, is most flamboyant when it blooms once after every seven years.
                 </p>
             </section>
         </section>
-
-        <section class="itemBox">
-            <img class="boxImg" src="assets/images/alpineZone.jpg" alt="boxImg">
-            <section class="infoBox">
-                <h2 class="pHead">Alpine Zone</h2>
-                <p class="p">
-                    The alpine zone of Yosemite begins near the 9,500 foot (2,900 m) elevation and is
-                    easily
-                    distinguished as it is above tree line. No trees grow in this zone due to the harsh
-                    climatic
-                    conditions. Short, cool summers with long, cold, and snowy winters are typical at
-                    these
-                    elevations.<br>
-                    Many exposed granitic outcroppings, talus slopes, and boulder fields limit the
-                    amount of vegetation
-                    that grows here. The herbaceous plants need to flower and produce their seeds
-                    quickly during the
-                    short, frost-free period of summer.
-                </p>
-            </section>
-        </section>
+        
     </section>
 
-    <h1 class="sectionTitle" id="two">Fauna of the Yosemite Valley</h1>
+    <h1 class="sectionTitle" id="two">Fauna of SGNP</h1>
     <section class="boxContent">
+        
         <section class="itemBox">
-            <img class="boxImg" src="assets/images/americanBlackBear.jpg" alt="boxImg">
+            <img class="boxImg" src="assets/images/mammals.jpg" alt="boxImg">
             <section class="infoBox">
-                <h2 class="pHead">American Black Bear</h2>
+                <h2 class="pHead">Mammals</h2>
                 <p class="p">
-                    There are approximately 300 to 500 black bears inside Yosemite. They continue to
-                    be one of the most
-                    sought after animals to see. Contrary to their name, most of the black bears in
-                    Yosemite have brown
-                    fur. If you see a bear while hiking, park rangers urge you to give the bear
-                    space. Black bears are
-                    rarely confrontational, but are known to be aggressive when they have cubs or
-                    are guarding food.
+                    Small herds of Spotted Deer, a solitary Sambhar, a darting Barking Deer or being surprised by a Black-naped Hare running across your path are just some of the pleasant surprises of the National Park, but nothing can really match the awe, fear and goose-pimply feeling when one is confronted by a large Leopard. The density of Leopards is one of the highest for any such wilderness, which makes this encounter a very real possibility. Sighting a Porcupine, which is rare, or a Palm civet, hardly seen these days or encountering a striped Hyena can make it a memorable experience. The lucky few can possibly see the elusive Four-horned Antelope or the extremely shy Mouse Deer. The monkey species includes the Rhesus Macaque, which is an introduced species, the Bonnet Macaque and the completely vegetarian Hanuman langur (leaf monkey). The Indian flying fox is the biggest of the 17 bat species found in the park.
                 </p>
             </section>
         </section>
 
         <section class="itemBox">
-            <img class="boxImg" src="assets/images/bighornSheep.jpeg" alt="boxImg">
+            <img class="boxImg" src="assets/images/birds.jpeg" alt="boxImg">
             <section class="infoBox">
-                <h2 class="pHead">Sierra Nevada Bighorn Sheep</h2>
+                <h2 class="pHead">Birds</h2>
                 <p class="p">
-                    The bighorn sheep of Yosemite are the only animals in the park on the
-                    endangered species list. They
-                    normally stick to the highest terrain in the park. If you are hiking in some
-                    of the higher
-                    elevations, you may spot one of these incredible creatures with a pair of
-                    binoculars.<br>
-                    Sierra Nevada bighorn sheep learn to leap from crag to crag in early
-                    lambhood, developing quickly
-                    into keen-eyed, strong-limbed and extremely agile creatures, always on the
-                    move to escape mountain
-                    lions and find food on steep, rocky slopes.
+                    The National Park is a bird watchers' paradise. From the tiny Tickell's Flowerpecker (small bird in India), many species of Sunbirds (old world equivalent of the humming birds) to the majestic White-bellied Sea Eagle. It is a visual feast with birds like the Paradise Flycatcher, the elusive Trogon, many species of Kingfishers, Woodpeckers, the continuous calling of the Brown-headed Barbet, the wildly screeching Parakeets, the metallic calls of the Racket-tailed Drongo, the musical call of the Tickell's Blue Flycatcher or the extremely melodious song of the Malabar Whistling Thrush or the familiar refrain of the Spotted babbler are just a few facets of nature's symphony in this forest.
                 </p>
             </section>
         </section>
 
         <section class="itemBox">
-            <img class="boxImg" src="assets/images/mountainLion.jpg" alt="boxImg">
+            <img class="boxImg" src="assets/images/reptiles.jpg" alt="boxImg">
             <section class="infoBox">
-                <h2 class="pHead">Mountain Lion</h2>
+                <h2 class="pHead">Reptiles, Amphibians, Butterflies and Others</h2>
                 <p class="p">
-                    Mountain lions—also called cougars, pumas or panthers—roam Yosemite's
-                    mountains and valleys. These
-                    important predators, native to the Americas, are a natural part of the
-                    Yosemite landscape. Because
-                    they are shy, solitary creatures, they elude visitors and are typically
-                    unconcerned by human
-                    presence even in close proximity. Sightings in the park often document a
-                    mountain lion on the
-                    prowl—sometimes chasing, killing or eating a raccoon or coyote.
+                    The Reptilian world is well represented by Crocodiles in Tulsi Lake, Monitor Lizards, Pythons, Cobras, Russell's viper, Bamboo-pit Viper and the extremely rare Ceylonese Cat Snake recently discovered by the staff of Bombay National History Society. Smaller reptiles also add to the wonder of this park. The invertebrate world from Crabs to Spiders to insects, Giant wood spiders, Signature spiders, Black wood spider with their large webs in monsoon is a treat to any naturalist. The insect world shows abundant variations in the form of Silk cotton bugs, Beetles and several kinds of Mantis. The Butterfly world is represented in a fascinating range of sizes and colors and the spectacular Blue Mormon, the phenomenal artist of camouflage the Blue Oak leaf, the bright Jezebels and Large Yellow and White Orange tips, Monarchs, Egg fly, Sailors are some of the many attractive butterflies one can find here.
                 </p>
             </section>
         </section>
-
-        <section class="itemBox">
-            <img class="boxImg" src="assets/images/muleDeer.jpg" alt="boxImg">
-            <section class="infoBox">
-                <h2 class="pHead">Mule Deer</h2>
-                <p class="p">
-                    While hiking in Yosemite, the chances of seeing a mule deer are
-                    high. Mule deer are the only type of
-                    deer that call the park home. Park rangers discourage people from
-                    feeding the deer because they may
-                    become agitated, and human food can be harmful to them.
-                </p>
-            </section>
-        </section>
-
-        <section class="itemBox">
-            <img class="boxImg" src="assets/images/bobcat.jpg" alt="boxImg">
-            <section class="infoBox">
-                <h2 class="pHead">Bobcat</h2>
-                <p class="p">
-                    Bobcats in Yosemite are elusive animals, but they have been
-                    spotted many times. It is not unusual to
-                    see bobcats hunting pray during the day. They are very important
-                    to the parks ecosystem because they
-                    keep the rodent population under control. Humans have nothing to
-                    fear from these beautiful cats.
-                </p>
-            </section>
-        </section>
-
-        <section class="itemBox">
-            <img class="boxImg" src="assets/images/coyote.jpg" alt="boxImg">
-            <section class="infoBox">
-                <h2 class="pHead">Coyote</h2>
-                <p class="p">
-                    No matter where you hike in Yosemite, you may catch a
-                    glimpse of a coyote. Even when you are nowhere
-                    near them, it is also possible to hear them howling at each
-                    other to communicate. Naturalists
-                    believe the Yosemite coyotes enjoy howls the way we enjoying
-                    singing. Coyotes are very shy and try
-                    to avoid humans. If you are hiking in Yosemite, park rangers
-                    recommend taking some time to watch the
-                    meadows. This is where many of the animals come to feed.
-                    Wherever you go in the park, you are bound
-                    to see some fascinating animals in their natural habitats.
-                </p>
-            </section>
-        </section>
+        
     </section>
 
 
-    <h1 class="sectionTitle" id="three">Scenic landmarks of the Yosemite Valley</h1>
+    <h1 class="sectionTitle" id="three">Things to do in SGNP</h1>
     <section class="boxContent">
         <section class="itemBox">
-            <img class="boxImg" src="assets/images/halfDome.jpg" alt="boxImg">
+            <img class="boxImg" src="assets/images/kanheriCaves.jpg" alt="boxImg">
             <section class="infoBox">
-                <h2 class="pHead">Half Dome</h2>
+                <h2 class="pHead">Kanheri Caves</h2>
                 <p class="p">
-                    Located in the park's valley, Half Dome is arguably
-                    Yosemite National Park's most famous landmark,
-                    and even appears on the California State quarter!<br>
-                    Perched over the valley, the 4,737 feet granite crest
-                    was long considered inaccessible, but now
-                    offers an 8.5 mile trail to the summit, several rock
-                    climbing ascents and a cable system. From the
-                    top of Half Dome, visitors can enjoy the fruits of their
-                    labor by taking in Yosemite sightseeing of
-                    the valley below.
+                    A 2,000-year-old complex sits within the park, housing more than 100 (is this correct) caves cut out of rock forming a protected archaeological site. The word 'Kanheri' is derived from Sanskrit word 'Krishnagiri', which literally means 'black mountain'. View the magnificent relics of Buddha and the Bodhisattvas and walk along the pillared corridors of the prayer halls. One can drive, walk, take a bus ride or even cycle up to here.
                 </p>
             </section>
         </section>
 
         <section class="itemBox">
-            <img class="boxImg" src="assets/images/tunnelTree.jpg" alt="boxImg">
+            <img class="boxImg" src="assets/images/vanRani.jpg" alt="boxImg">
             <section class="infoBox">
-                <h2 class="pHead">Mariposa Grove</h2>
+                <h2 class="pHead">Van Rani Toy Train</h2>
                 <p class="p">
-                    Mariposa Grove Located only in the Sierra Nevada
-                    Mountains that fill Yosemite National Park, Giant
-                    Sequoias are one of Yosemite's greatest
-                    treasures.<br>Bask in the grandeur of these stunning
-                    trees
-                    and step in front of the Grizzly Giant to really get
-                    a feel for the immensity of a California
-                    redwood tree.<br>
-                    Grizzly Giant is estimated to be of 2,700 years, one
-                    of the oldest living sequoia.
+                    For the past three decades, 'Vanrani', a miniature toy train, has been operating in SGNP (Sanjay Gandhi National Park, formerly known as 'Krishnagiri Park'). Its name, derived from Hindi, translates to 'Jungle Queen' in English. This charming Jungle Queen toy train, which can accommodate around 20 to 25 passengers, has become one of Mumbai's oldest and most beloved tourist attractions.
+                    It is actually a mini safari that takes about 15 minutes inside the Borivali National Park. The train runs on small railway tracks with limited seating capacity and covers a distance of up to 2.5 kilometers. The ride, which used to be yellow but is now green, lasts for about 15 to 20 minutes.
                 </p>
             </section>
         </section>
 
         <section class="itemBox">
-            <img class="boxImg" src="assets/images/yosemiteFalls.jpg" alt="boxImg">
+            <img class="boxImg" src="assets/images/gandhiTekdi.jpg" alt="boxImg">
             <section class="infoBox">
-                <h2 class="pHead">Yosemite falls</h2>
+                <h2 class="pHead">Gandhi Tekdi</h2>
                 <p class="p">
-                    One of the most magnificent has got to be
-                    Yosemite Falls. Made up of three distinct
-                    sections, each
-                    more impressive than the last, Yosemite Falls
-                    holds the title of being the highest measured
-                    waterfall in North America. Hiking trails are
-                    scattered throughout and around the falls,
-                    including
-                    some that take visitors near the hanging valley
-                    over which the falls first plunges into the
-                    valley.
+                    One of the most peaceful places in the entire National Park. Gandhi Tekdi offers a 360° view of the SGNP. Lots of people come here for walks, jogging and to do Yoga. It also offers a very nice sitting place under the dome structure at Gandhi Tekdi. Around it lies a very beautiful garden which is well maintained by authorities. During monsoon it is one of the most beautiful spots in the National Park. There is a proper road that goes all the way up to the top whereas a separate route to climb to the tekdi also exists.
+                </p>
+            </section>
+        </section>
+
+        <section class="itemBox">
+            <img class="boxImg" src="assets/images/starGazing.jpg" alt="boxImg">
+            <section class="infoBox">
+                <h2 class="pHead">Star Gazing</h2>
+                <p class="p">
+                    Human beings have been always fascinated with the celestial objects. In a city like Mumbai, observing stars and planets can be a difficult task owing to cloud cover and light pollution. But Sanjay Gandhi National Park offers a unique chance to do that. To introduce visitors to the wonders of the night sky, the Nature Interpretation Center (NIC) of SGNP, often organizes star gazing sessions. With the help of powerful telescopes and knowledgeable experts, visitors can spot and learn nearby planets and get their rare chance to admire the night sky from right in the heart of Mumbai.
+                </p>
+            </section>
+        </section>
+
+        <section class="itemBox">
+            <img class="boxImg" src="assets/images/cycling.jpeg" alt="boxImg">
+            <section class="infoBox">
+                <h2 class="pHead">Cycling</h2>
+                <p class="p">
+                    Rent a cycle in SGNP, the perfect way to explore this National Park. Located in the heart of Mumbai, National Park  offer miles of tree-shaded bike paths leading to open meadows, rivers in rainy season and attractions such as toy train, Tiger saferi. Kanehri caves are closed due to Covi 19 for now. You  can select the style of bike that you prefer. Choose from a two-hour, four-hour or full-day rental. 
                 </p>
             </section>
         </section>
 
         <section class="itemBox itemBoxLast">
-            <img class="boxImg" src="assets/images/tunnelView.jpg" alt="boxImg">
+            <img class="boxImg" src="assets/images/boating.jpeg" alt="boxImg">
             <section class="infoBox">
-                <h2 class="pHead">Tunnel View</h2>
+                <h2 class="pHead">Boating</h2>
                 <p class="p">
-                    Tunnel View is a must stop for any first
-                    time visit to Yosemite Valley. Find it just
-                    outside the
-                    Wawona Tunnel on State Highway 41. No hiking
-                    is required, you simply park at one of the
-                    lots and
-                    make your way to the vista. This spot offers
-                    a breathtaking snapshot of Yosemite Valley
-                    and several
-                    of its attractions — El Capitan, Half Dome
-                    and the waterfall Bridalveil Fall.
+                    Boating in Sanjay Gandhi National Park in Mumbai offers a unique and serene experience amidst the bustling city life. The park is one of the few places in the world where you can enjoy boating in a natural habitat within a metropolitan area.
                 </p>
             </section>
         </section>

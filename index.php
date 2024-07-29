@@ -23,28 +23,20 @@
                 Welcome To
             </h1>
             <p>
-                The Majestic Yosemite Valley
+                The Sanjay Gandhi National Park
             </p>
             <br>
             <p>
-                Welcome to the Yosemite National park in beautiful Mariposa County. Explore things to do, such as seeing
-                awe-inspiring vistas, granite icons, breath-taking waterfalls, and discovering fascinating history, all
-                while staying in Mariposa County. Whether it's your first time visiting the Yosemite National
-                Park or you're a seasoned veteran traveler, you'll always find something new to do here.
+                The Sanjay Gandhi National Park area has a long history dating back to the 4th century BC. In ancient India, Sopoara and Kalyan were two ports in the vicinity that traded with ancient civilizations such as Greece and Mesopotamia. The 45 km (28 mi) land route between these two ports was partially through this forest. The Kanheri Caves in the center of the park were an important Buddhist learning center and pilgrimage site sculpted by Buddhist monks between 9th and 1st centuries BCE. They were chiseled out of a massive basaltic rock outcropping.
             </p>
             <br>
             <p>
-                Experience this majestic park in all four seasons, search for activities
-                to do, stargazing, fishing, hiking, camping, photopgraph the variety of
-                beautiful flora and fauna and explore the wild Valley to your
-                content with us on your side !
+                The park was named 'Krishnagiri National Park' in the pre-independence era. At that time the area of the park was only 20.26 sq. km (7.82 sq mi). In 1969, the park was expanded to its present size by acquiring various reserve forest properties adjoining the park. After this, an independent unit of the Forest Department called 'Borivali National Park Sub-division' administered the area. Krishnagiri National Park was created in 1974 and later renamed as 'Borivali National Park'. In 1981, it was re-dedicated as 'Sanjay Gandhi National Park' in memory of Sanjay Gandhi, the son of ex-Prime Minister of India Indira Gandhi.
             </p>
         </div>
     </section>
 
-    <footer class="ld_p">
-        Copyright © 2023
-    </footer>
+    <?php include "footer.php"; ?>
     
 </body>
 </html>

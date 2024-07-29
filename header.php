@@ -15,7 +15,7 @@
                         <li>Fauna</li>
                     </a>
                     <a href="http://localhost/NPS/attractions.php#three">
-                        <li>Scenic Landmarks</li>
+                        <li>Things To Do</li>
                     </a>
                 </ul>
             </div>
